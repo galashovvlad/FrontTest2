@@ -6,42 +6,32 @@ html{
     line-height: 1.15;
     display: block;
 }
-
-
 body {
     min-width: 320px;
     font-size: 1rem;
     display: block;    
 }
-
 div{
     box-sizing: border-box;
 }
-
 .content{
     height: 100%;
     padding: 0 1.43rem 14.29rem;
     max-width: 50rem;
     margin: 0 auto; 
 }
-
 .form{
 
     padding-top: 50%;
     display: block;
-    height: 100%;
-   
+    height: 100%;  
 }
-
  .container  {
-  display: flex;
-  
+  display: flex; 
   width: 100%;
   height: 100%;
   align-items: center;
   }
-
-
 .number-adress-map{
     width: 100%;
     display: block;
@@ -49,10 +39,8 @@ div{
 
 .number-adress{
     width: 3rem;
-    flex-shrink: 0;
-     
+    flex-shrink: 0;   
 }
-
 .icon-number-adress{
     display:inline-block;
     width: 1.5rem;
@@ -64,30 +52,27 @@ div{
     vertical-align: middle;
     color: #212121;
     border: 2px solid rgba(33,33,33,.2);
-    border-radius: 1rem;
-    
+    border-radius: 1rem;   
 }
-
 .adress {
     width: 100%;
-     flex-shrink: 1;
+    flex-shrink: 1;
 }
-
-.adress-input{
-width: 100%;
-border:none;
-border-bottom: 1px solid rgba(0,0,0,.2);
-outline: none;
-margin: 0em;
-font-size: 100%;
-line-height: 1.15;
-height: 100%; 
+    .adress-input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    outline: none;
+    margin: 0em;
+    font-size: 100%;
+    line-height: 1.15;
+    height: 100%; 
 
 }
 .map{
-width: auto;
-margin-left: 6px;
-display: inline - block;
+    width: auto;
+    margin-left: 6px;
+    display: inline - block;
 }
 
 img{
