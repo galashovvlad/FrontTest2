@@ -23,10 +23,11 @@ div{
     max-width: 50rem;
     margin-top: 20%;
     padding: 0 1.43rem 14.29rem;
+
     }
 
 .icon-way-point{
-    display:inline-block;
+    display:block;
     float:left;
     margin-right: 1rem;
     height: 1.5rem;
@@ -35,28 +36,35 @@ div{
     text-align: center;
     color: #212121;
     border: 2px solid rgba(33,33,33,.2);
-    border-radius: 1rem;     
+    border-radius: 1rem;  
+    font-size: 100%;
+}
+
+.icon-way-point span{
+    vertical-align: middle;
+    font-size: 100%;
 }
 
 .adress-input{
-    display: block;
+    display:block;
     float:left;
-    width: 70%;
-    font-size: 1rem;
+    vertical-align: middle;
+    width: calc(100% - 4.5rem);
+    font-size: 100%;
     border:none;
     border-bottom: 1px solid rgba(0,0,0,.2);
     outline: none;
     
 }
 .map{
-    display:block;
-    float: left;
-    width: 27px;
+     display:block;
+    float:left;
+    vertical-align: middle;
     margin-left: 0.5rem; 
 }
 
 img{
-    height:27px;
-    width:27px;
+    height:1.5rem;
+    width:1.5rem;
     opacity: 0.5;
 }
