@@ -18,11 +18,11 @@ div{
 .form{
     display: block; 
     min-width:320px;
-    max-width: 50rem;
+    max-width: 40rem;
     height: 100%;
     margin: 0 auto;
     margin-top: 20%;
-    padding: 0 1.43rem 14.29rem;
+    padding: 0 2.43rem 14.29rem;
     white-space: nowrap;
 }
 
@@ -30,7 +30,8 @@ div{
     display:inline-block;  
     height: 1.5rem;
     width: 1.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.2rem;
+    margin-left: -1.7rem;
     font-weight: 700;
     text-align: center;
     color: #212121;
@@ -45,19 +46,19 @@ div{
 
 .adress-input{
     display:inline-block;
-    width: calc(100% - 5rem);
+    width: 100%;
     font-size: 100%;
     vertical-align: middle;
     border:none;
     border-bottom: 1px solid rgba(0,0,0,.2);
     outline: none;  
 }
+
 .map{
     display:inline-block;
-    margin-left: 0.5rem; 
+    margin-left: 0.2rem; 
     vertical-align: middle;    
 }
-
 .map img{
     width:1.5rem;
     height:1.5rem;
