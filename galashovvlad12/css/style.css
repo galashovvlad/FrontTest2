@@ -27,8 +27,7 @@ div{
 }
 
 .icon-way-point{  
-    position: absolute;
-    left: 0;
+    float: left;
     width:1.5rem;
     height:1.5rem;
     font-weight: 700;
@@ -45,9 +44,9 @@ div{
 }
 
 .input-adress{
-    position: absolute;
-    left: 2rem;
-    right:2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
 }
 
 input{
@@ -62,8 +61,7 @@ input{
 }
 
 .map{
-    position: absolute;
-    right: 0;
+    float: right;
     width:1.5rem;
     height:auto;
     vertical-align: middle;
